@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif;
+
+}
+  
+.app{
+    margin-top: 8%;
+    margin-left: 22%;
+    padding: 30px;
+text-align: center;
+border: 1px solid;
+width: 800px;
+background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+}
+.opacity{
+    opacity: 0.3;
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+.price-card{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+
+.plan{
+    font-size: x-small;
+}
+
+.price-head{
+    font-size: xx-large;
+    font-weight: 500;
+}
+
