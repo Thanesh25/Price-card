@@ -2,7 +2,6 @@ import React from 'react'
 
 const PriceCard = ({plan,price,features,btn}) => {
   console.log(features)
-  
   return (
     <div className='container fluid'>
       <div className="price-card">
@@ -18,7 +17,8 @@ const PriceCard = ({plan,price,features,btn}) => {
         </ul>
         
         
-          <button className='btn btn-primary' >Button</button>
+        <button className='btn btn-primary' >Button</button>
+        
         
       </div>
     </div>

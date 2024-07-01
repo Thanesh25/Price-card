@@ -4,12 +4,12 @@
 }
   
 .app{
-    margin-top: 8%;
-    margin-left: 22%;
-    padding: 30px;
+ margin-top: 8%;
+ margin-left: 22%;
+ padding: 30px;
 text-align: center;
 border: 1px solid;
-width: 800px;
+width: 900px;
 background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
 }
 .opacity{
@@ -38,5 +38,13 @@ background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
 .price-head{
     font-size: xx-large;
     font-weight: 500;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    text-align: left;
 }
 
